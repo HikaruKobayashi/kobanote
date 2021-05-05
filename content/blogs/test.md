@@ -1,7 +1,7 @@
 ---
-title: Test
+title: Hikaru
 date: 2021.5.1
-description: 'Empower your NuxtJS application with @nuxt/content module: write in a content/ directory and fetch your Markdown, JSON, YAML and CSV files through a MongoDB like API, acting as a Git-based Headless CMS.'
+description: 'What a pleasant surprise, to find myself  this opportunity to write and share some words...'
 ---
 
 Empower your NuxtJS application with `@nuxtjs/content` module: write in a `content/` directory and fetch your Markdown, JSON, YAML and CSV files through a MongoDB like API, acting as a **Git-based Headless CMS**.
