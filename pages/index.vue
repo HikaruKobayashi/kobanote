@@ -1,9 +1,12 @@
 <template>
-  <div>
-    <div v-for="b in blogs" :key="b.slug">
-      <nuxt-link :to="b.slug">{{ b.title }}</nuxt-link>
+  <section>
+    <div class="border" v-for="b in blogs" :key="b.slug">
+      <nuxt-link :to="b.slug">
+        <h2 class="text-xl font-bold">{{ b.title }}</h2>
+        <time class="">{{ b.date }}</time>
+      </nuxt-link>
     </div>
-  </div>
+  </section>
 </template>
 
 <script lang="ts">
