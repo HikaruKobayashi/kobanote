@@ -1,12 +1,14 @@
-<template>
-  <section>
-    <div class="border" v-for="b in blogs" :key="b.slug">
-      <nuxt-link :to="b.slug">
-        <h2 class="text-xl font-bold">{{ b.title }}</h2>
-        <time class="">{{ b.date }}</time>
-      </nuxt-link>
-    </div>
-  </section>
+<template class="w-full h-screen">
+  <div class="w-9/12 mx-auto">
+    <ul class="flex">
+      <li class="w-1/3 mt-8 mx-auto" v-for="b in blogs" :key="b.slug">
+        <nuxt-link :to="b.slug">
+          <h2 class="text-xl font-bold">{{ b.title }}</h2>
+          <time class="">{{ b.date }}</time>
+        </nuxt-link>
+     </li>
+    </ul>
+  </div>
 </template>
 
 <script lang="ts">
@@ -21,5 +23,3 @@ export default Vue.extend({
 })
 </script>
 
-<style>
-</style>
