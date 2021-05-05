@@ -1,20 +1,13 @@
-# MyBlog
+# HikaBlog
 
-## Build Setup
+## Features
+- Markdown
+- High degree of freedom
 
-```bash
-# install dependencies
-$ yarn install
-
-# serve with hot reload at localhost:3000
-$ yarn dev
-
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+## How to use
+1. Clone this repository.
+2. Move `~/content/blogs` directory.
+3. Create a new file in `yyyy/MM/dd + title.md`.
+4. Write an article.
+5. Make a pull request and set Hikaru as a reviewer.
+6. If the review is complete, please merge.

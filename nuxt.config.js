@@ -2,7 +2,7 @@ export default {
   ssr: false,
 
   head: {
-    title: 'MyBlog',
+    title: 'HikaBlog',
     htmlAttrs: {
       lang: 'en'
     },
