@@ -1,5 +1,5 @@
-<template class="w-full h-screen">
-  <article class="w-9/12 mx-auto">
+<template class="w-full h-full">
+  <article class="w-9/12 my-20 mx-auto bg-black text-white">
     <h1 class="text-6xl text-center p-8">{{ blogs.title }}</h1>
     <nuxt-content class="w-4/5 mx-auto" :document="blogs" />
   </article>
