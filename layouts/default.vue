@@ -14,4 +14,8 @@
   .nuxt-content p {
     margin-bottom: 20px;
   }
+  .nuxt-content a {
+    text-decoration: underline;
+    color: rgb(0, 0, 255);
+  }
 </style>
