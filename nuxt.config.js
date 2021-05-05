@@ -33,7 +33,13 @@ export default {
     '@nuxt/content',
   ],
 
-  content: {},
+  content: {
+    markdown: {
+      prism: {
+        theme: 'prism-themes/themes/prism-vsc-dark-plus.css'
+      }
+    }
+  },
 
   build: {
   }

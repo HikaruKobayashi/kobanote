@@ -144,3 +144,35 @@ Learn how to fetch your content with `$content`: https://content.nuxtjs.org/fetc
 ## Displaying content
 
 Learn how to display your Markdown content with the `<nuxt-content>` component directly in your template: https://content.nuxtjs.org/displaying.
+
+```
+export default {
+  content: {
+    apiPrefix: '_content',
+    dir: 'content',
+    fullTextSearchFields: ['title', 'description', 'slug', 'text'],
+    nestedProperties: [],
+    markdown: {
+      remarkPlugins: [
+        'remark-squeeze-paragraphs',
+        'remark-slug',
+        'remark-autolink-headings',
+        'remark-external-links',
+        'remark-footnotes'
+      ],
+      rehypePlugins: [
+        'rehype-minify-whitespace',
+        'rehype-sort-attribute-values',
+        'rehype-sort-attributes',
+        'rehype-raw'
+      ],
+      prism: {
+        theme: 'prismjs/themes/prism.css'
+      }
+    },
+    yaml: {},
+    csv: {},
+    xml: {}
+  }
+}
+```

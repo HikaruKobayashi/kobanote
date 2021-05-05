@@ -1,7 +1,7 @@
 <template>
-  <div class="w-full h-full bg-black text-white">
+  <div class="w-full h-full">
     <div class="bg-top-img bg-cover w-full h-screen">
-      <div class="text-center w-3/6 text-white mx-auto my-0 px-0 py-64">
+      <div class="text-center w-3/6 mx-auto my-0 px-0 py-64">
         <!-- <h1 class="font-bold text-6xl inline-block">Title</h1> -->
       </div>
     </div>

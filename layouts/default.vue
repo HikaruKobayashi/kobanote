@@ -3,9 +3,6 @@
 </template>
 
 <style>
-  *{
-    margin: 0;
-  }
   .nuxt-content h2 {
     font-weight: bold;
     font-size: 28px;
