@@ -2,6 +2,7 @@
   <article class="w-11/12 lg:w-9/12 mx-auto p-8">
     <h1 class="text-6xl text-center p-8">{{ blogs.title }}</h1>
     <nuxt-content :document="blogs" />
+    <Tag>{{ blogs.category }}</Tag>
   </article>
 </template>
 

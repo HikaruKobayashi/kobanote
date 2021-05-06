@@ -1,6 +1,6 @@
 <template>
   <div class="w-full h-full">
-    <div class="bg-top-img bg-cover w-full h-screen" />
+    <div class="bg-top-img bg-cover w-4/6 h-64 m-auto my-10 lg:my-20" />
     <ul class="w-11/12 lg:w-9/12 mx-auto flex flex-wrap pb-12">
       <li class="w-1/2 mt-8 mx-auto text-center p-2 md:p-4 lg:p-8" v-for="b in blogs" :key="b.slug">
         <nuxt-link :to="b.slug">
