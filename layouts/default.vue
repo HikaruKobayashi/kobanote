@@ -1,15 +1,19 @@
 <template>
-  <Nuxt />
+  <div>
+    <Header />
+    <Nuxt />
+    <Footer />
+  </div>
 </template>
 
 <style>
   .nuxt-content h2 {
     font-weight: bold;
-    font-size: 28px;
+    font-size: 24px;
   }
   .nuxt-content h3 {
     font-weight: bold;
-    font-size: 22px;
+    font-size: 20px;
   }
   .nuxt-content p {
     margin-bottom: 20px;
