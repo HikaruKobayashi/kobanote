@@ -46,5 +46,9 @@ module.exports = {
     babel: {
       plugins: [['@babel/plugin-proposal-private-methods', { loose: true }]],
     },
+  },
+
+  render: {
+    injectScripts: false,
   }
 }
