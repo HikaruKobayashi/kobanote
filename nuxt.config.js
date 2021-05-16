@@ -31,6 +31,7 @@ module.exports = {
 
   modules: [
     '@nuxt/content',
+    '@nuxtjs/pwa'
   ],
 
   content: {
@@ -45,5 +46,9 @@ module.exports = {
     babel: {
       plugins: [['@babel/plugin-proposal-private-methods', { loose: true }]],
     },
+  },
+
+  render: {
+    injectScripts: false,
   }
 }
