@@ -18,7 +18,7 @@ import Vue from 'vue'
 
 export default Vue.extend({
   async asyncData ({ $content }) {
-    const query = await $content('blogs' || 'index').limit(10)
+    const query = await $content('blogs' || 'index').sortBy('createdAt', 'desc')
     const blogs = await query.fetch()
     return { blogs }
   },
