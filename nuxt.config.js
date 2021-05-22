@@ -31,8 +31,19 @@ module.exports = {
 
   modules: [
     '@nuxt/content',
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
+    'nuxt-fontawesome',
   ],
+
+  fontawesome: {
+    component: "fa",
+    imports: [
+      {
+        set: "@fortawesome/free-solid-svg-icons",
+        icons: ["faTags", "faCaretRight"],
+      },
+    ],
+  },
 
   content: {
     markdown: {
