@@ -1,4 +1,4 @@
-# HikaBlog
+# KobaNote
 
 ## Features
 - Markdown

@@ -2,7 +2,7 @@ module.exports = {
   ssr: false,
 
   head: {
-    title: 'HikaBlog',
+    title: 'KobaNote',
     htmlAttrs: {
       lang: 'en'
     },
