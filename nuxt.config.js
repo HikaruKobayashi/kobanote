@@ -2,7 +2,7 @@ module.exports = {
   ssr: false,
 
   head: {
-    title: 'KobaNote',
+    title: 'kobanote',
     htmlAttrs: {
       lang: 'en'
     },

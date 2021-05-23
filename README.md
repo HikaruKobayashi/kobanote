@@ -1,4 +1,4 @@
-# KobaNote
+# kobanote
 
 ## Features
 - Markdown
