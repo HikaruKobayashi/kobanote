@@ -27,6 +27,15 @@
   .nuxt-content li {
     list-style: inside;
   }
+  .nuxt-content blockquote {
+    border-left: 3px solid rgb(221,221,221);
+    color: rgb(119,119,119);
+    padding: 1px;
+  }
+  .nuxt-content blockquote > p {
+    margin-left: 15px;
+    margin-top: 20px;
+  }
   .line-numbers {
     border-radius: 6px;
   }
