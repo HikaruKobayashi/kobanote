@@ -1,5 +1,5 @@
 {
-  "name": "KobaNote",
+  "name": "kobanote",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -26,3 +26,4 @@
     "postcss": "^8.2.8"
   }
 }
+

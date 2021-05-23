@@ -24,6 +24,9 @@
     text-decoration: underline;
     color: rgb(0, 0, 255);
   }
+  .nuxt-content li {
+    list-style: inside;
+  }
   .line-numbers {
     border-radius: 6px;
   }
