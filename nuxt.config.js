@@ -32,6 +32,8 @@ module.exports = {
   modules: [
     '@nuxt/content',
     '@nuxtjs/pwa',
+    '@nuxtjs/robots',
+    '@nuxtjs/sitemap',
     'nuxt-fontawesome',
   ],
 
@@ -43,6 +45,35 @@ module.exports = {
         icons: ["faTags", "faCaretRight"],
       },
     ],
+  },
+
+  sitemap: {
+    hostname: process.env.BASE_URL || 'https://kobanote.net/',
+    routes: async () => {
+      let array = [
+        {
+          url: '/',
+          changefreq: 'daily',
+          priority: 1,
+          lastmod: new Date()
+        }
+      ];
+      const { $content } = require('@nuxt/content')
+      const posts = await $content('blogs')
+        .only(['path', 'updated_at'])
+        .fetch()
+      array = array.concat(
+        posts.map((p) => 
+          { 
+            return {
+              url: p.path, 
+              lastmod: p.updated_at,
+              priority: 1,
+            }
+          })
+      )
+      return array
+    }
   },
 
   content: {

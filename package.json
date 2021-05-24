@@ -12,6 +12,8 @@
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
     "@nuxt/content": "^1.14.0",
     "@nuxtjs/pwa": "^3.3.5",
+    "@nuxtjs/robots": "^2.5.0",
+    "@nuxtjs/sitemap": "^2.4.0",
     "core-js": "^3.9.1",
     "nuxt": "^2.15.3",
     "nuxt-fontawesome": "^0.4.0",
@@ -26,4 +28,3 @@
     "postcss": "^8.2.8"
   }
 }
-
