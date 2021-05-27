@@ -2,11 +2,11 @@
 title: 自作サイトのパフォーマンスを上げる
 date: 2021.5.26
 category: SEO
-description: ''
+description: '自作ブログであるこのサイトを「Lighthouse」というGoogleの拡張機能で計測しました。'
 ---
 
 先日、ネットサーフィンをしている時に「Lighthouse」というGoogleの拡張機能でwebアプリの品質を0から100の間の数値で表示してくれることを知りました。  
-そこで、自作ブログであるこのサイトを「Lighthouse」で検索することにしました。
+そこで、自作ブログであるこのサイトを「Lighthouse」で計測することにしました。
 
 ## Lighthouseに初トライ
 何はともあれ早速計測してみることにしました。  
