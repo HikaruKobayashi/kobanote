@@ -27,6 +27,7 @@ module.exports = {
   buildModules: [
     '@nuxt/typescript-build',
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/vuetify',
   ],
 
   modules: [
@@ -44,6 +45,10 @@ module.exports = {
         set: "@fortawesome/free-solid-svg-icons",
         icons: ["faTags", "faCaretRight"],
       },
+      {
+        set: "@fortawesome/free-solid-svg-icons",
+        icons: ["faSearch"]
+      }
     ],
   },
 
