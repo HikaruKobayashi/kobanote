@@ -7,13 +7,6 @@ module.exports = {
     './nuxt.config.{js,ts}',
   ],
   darkMode: false, // or 'media' or 'class'
-  theme: {
-    extend: {
-      backgroundImage: theme => ({
-        'top-img': "url('@/assets/img/top_img.jpg')",
-      })
-    },
-  },
   variants: {
     extend: {
       margin: ['odd', 'even']

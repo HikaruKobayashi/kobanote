@@ -1,6 +1,7 @@
 <template class="w-full h-full">
   <article class="w-11/12 lg:w-1/2 mx-auto p-8">
     <h1 class="text-2xl lg:text-4xl font-bold text-center p-8">{{ blogs.title }}</h1>
+    <Profile />
     <nuxt-content :document="blogs" />
     <Tag>{{ blogs.category }}</Tag>
   </article>
