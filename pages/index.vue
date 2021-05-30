@@ -1,7 +1,7 @@
 <template>
   <div class="w-full lg:w-9/12 h-full mx-auto">
     <ul class="w-full mx-auto flex flex-wrap justify-center pb-12">
-      <li class="w-11/12 mt-8 p-4 lg:p-8 border-2 rounded-2xl border-gray-100 shadow-md bg-white" v-for="b in blogs" :key="b.slug">
+      <li class="w-11/12 mt-8 p-4 lg:p-8 border-2 rounded-md border-gray-100 shadow-md bg-white" v-for="b in blogs" :key="b.slug">
         <nuxt-link :to="b.slug">
           <h2 class="text-2xl font-semibold">{{ b.title }}</h2>
           <p class="text-xs md:text-sm lg:text-base">{{ b.description }}</p>
