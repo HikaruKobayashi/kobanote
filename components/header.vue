@@ -1,5 +1,5 @@
 <template>
-  <header class="w-full h-10 table border-b">
+  <header class="w-full h-10 table border-b fixed bg-white z-10">
     <div class="table-cell align-middle">
       <ul class="flex flex-wrap justify-between">
         <li>
