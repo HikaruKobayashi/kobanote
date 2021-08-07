@@ -14,7 +14,7 @@
     <div class="w-full pl-4">
       <p class="py-2">All Topics</p>
       <ul class="w-full">
-        <li class="border border-gray-500 inline-block p-2 mr-2 rounded" v-for="t in tags" :key="t.slug">
+        <li class="border border-gray-500 inline-block p-2 mr-2 mb-2 rounded" v-for="t in tags" :key="t.slug">
           <p class="text-sm text-gray-500">{{ t.category }}</p>
         </li>
       </ul>
