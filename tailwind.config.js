@@ -7,6 +7,14 @@ module.exports = {
     './nuxt.config.{js,ts}',
   ],
   darkMode: false, // or 'media' or 'class'
+  theme: {
+    extend: {
+      colors: {
+        main: '#F4F2EC',
+        twitter: '#1da1f2',
+      },
+    }
+  },
   variants: {
     extend: {
       margin: ['odd', 'even']

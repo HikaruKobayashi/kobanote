@@ -10,7 +10,7 @@
     </ul>
     <ul class="flex items-center justify-end">
       <li>
-        <a href="https://twitter.com/kobayahi0719"><fa class="fa-lg text-gray-500" :icon="['fab', 'twitter']" /></a>
+        <a href="https://twitter.com/kobayahi0719"><fa class="fa-lg text-twitter" :icon="['fab', 'twitter']" /></a>
       </li>
     </ul>
   </div>
