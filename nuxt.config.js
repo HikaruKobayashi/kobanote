@@ -22,6 +22,15 @@ module.exports = {
   components: true,
 
   buildModules: [
+    [
+      '@nuxtjs/google-fonts',
+      {
+        families: {
+          'Noto+Sans+JP': true,
+        },
+        display: 'swap'
+      },
+    ],
     '@nuxt/typescript-build',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/vuetify',

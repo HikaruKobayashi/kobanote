@@ -7,6 +7,9 @@
 </template>
 
 <style>
+  html {
+    font-family: 'Noto Sans JP', sans-serif;
+  }
   .nuxt-content h2 {
     font-weight: bold;
     font-size: 24px;
@@ -18,6 +21,7 @@
     font-size: 20px;
   }
   .nuxt-content p {
+    line-height: 2.0;
     margin-bottom: 20px;
   }
   .nuxt-content a {
