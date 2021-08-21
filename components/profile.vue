@@ -5,7 +5,7 @@
         <img class="w-12 h-12 rounded-full" src="@/assets/img/kobayahi.JPG" alt="kobayahi-img" />
       </li>
       <li class="inline-block align-middle">
-        <p>Kobayahi</p>
+        <p>Kobayashi</p>
       </li>
     </ul>
     <ul class="flex items-center justify-end">
