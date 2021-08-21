@@ -6,6 +6,18 @@
   </div>
 </template>
 
+<script>
+import Header from '~/components/molecules/common/header.vue'
+import Footer from '~/components/molecules/common/footer.vue'
+
+export default {
+  components: {
+    Header,
+    Footer
+  },
+}
+</script>
+
 <style>
   html {
     font-family: 'Noto Sans JP', sans-serif;

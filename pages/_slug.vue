@@ -11,8 +11,14 @@
 
 <script lang="ts">
 import Vue from 'vue'
+import ArticleImg from '~/components/molecules/article/articleImg.vue'
+import Tag from '~/components/atoms/common/tag.vue'
 
 export default Vue.extend({
+  components: {
+    ArticleImg,
+    Tag,
+  },
   async asyncData ({ $content, params }) {
     const blogs = await $content('blogs', params.slug || 'index').fetch()
     return { blogs }

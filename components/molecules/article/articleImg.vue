@@ -19,7 +19,7 @@ export default {
   width: 100%
   position: relative
   padding: 200px 0
-  background: url(../assets/img/main-bg-img.jpeg) no-repeat
+  background: url(@/assets/img/main-bg-img.jpeg) no-repeat
   background-size: cover
   &::before
     background-color: rgba(0,0,0,0.4)

@@ -8,7 +8,7 @@
 #introduction
   width: 100%
   padding: 200px 0
-  background: url(../assets/img/main-bg-img.jpeg) no-repeat
+  background: url(@/assets/img/main-bg-img.jpeg) no-repeat
   background-size: cover
 @media screen and (max-width: 1000px)
   #introduction

@@ -27,8 +27,14 @@
 
 <script lang="ts">
 import Vue from 'vue'
+import TopImg from '~/components/molecules/siteTop/topImg.vue'
+import Tag from '~/components/atoms/common/tag.vue'
 
 export default Vue.extend({
+  components: {
+    TopImg,
+    Tag,
+  },
   async asyncData ({ $content }) {
     const query = await $content('blogs' || 'index').sortBy('createdAt', 'desc')
     const blogs = await query.fetch()
