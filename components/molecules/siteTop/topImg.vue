@@ -1,27 +1,27 @@
 <template>
-  <section id="introduction">
+  <section id="topImg">
     <div class="inner text-center w-3/6 text-white mx-auto my-0 px-0 py-32"></div>
   </section>
 </template>
 
 <style lang="sass" scoped>
-#introduction
+#topImg
   width: 100%
   padding: 200px 0
   background: url(@/assets/img/main-bg-img.jpeg) no-repeat
   background-size: cover
 @media screen and (max-width: 1000px)
-  #introduction
+  #topImg
     .inner
       width: 700px
 @media screen and (max-width: 750px)
-  #introduction
+  #topImg
     .inner
       width: 500px
 @media screen and (max-width : 599px)
-  #introduction
+  #topImg
     padding: 120px 0 120px 0
-  #introduction
+  #topImg
     .inner
       width: 300px
 </style>
