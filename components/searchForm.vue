@@ -5,7 +5,7 @@
         class=""
         ref="searchForm"
         v-model="query"
-        placeholder='kobanoteを検索'
+        placeholder='Search'
         prepend-inner-icon="mdi-magnify"
         Dense
       />

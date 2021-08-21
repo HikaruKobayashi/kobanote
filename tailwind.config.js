@@ -10,7 +10,6 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        main: '#F4F2EC',
         twitter: '#1da1f2',
       },
     }
