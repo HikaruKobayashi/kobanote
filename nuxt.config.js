@@ -42,7 +42,12 @@ module.exports = {
     '@nuxtjs/robots',
     '@nuxtjs/sitemap',
     'nuxt-fontawesome',
+    '@nuxtjs/google-gtag',
   ],
+  'google-gtag': {
+    id: 'G-9RQREZ7B7F',
+    debug: true,
+  },
 
   fontawesome: {
     component: "fa",
