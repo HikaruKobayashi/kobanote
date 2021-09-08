@@ -34,7 +34,13 @@ module.exports = {
     '@nuxt/typescript-build',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/vuetify',
+    '@aceforth/nuxt-optimized-images',
   ],
+
+  optimizedImages: {
+    optimizeImages: true,
+    optimizeImagesInDev: true,
+  },
 
   modules: [
     '@nuxt/content',
