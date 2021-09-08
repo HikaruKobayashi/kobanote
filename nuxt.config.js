@@ -31,6 +31,17 @@ module.exports = {
         display: 'swap'
       },
     ],
+    [
+      'nuxt-compress',
+      {
+        gzip: {
+          threshold: 8192,
+        },
+        brotli: {
+          threshold: 8192,
+        },
+      },
+    ],
     '@nuxt/typescript-build',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/vuetify',
