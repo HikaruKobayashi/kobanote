@@ -6,7 +6,7 @@
         <li class="article-card w-11/12 sm:mx-auto mb-10 rounded-2xl border-2 overflow-hidden" v-for="b in blogs" :key="b.slug">
           <div class="bg-white h-full">
             <nuxt-link :to="b.slug">
-              <img :src="require(`@/assets/img/${b.image}.jpg`)" :alt="b.image" />
+              <img :src="require(`@/assets/img/${b.image}.jpg`)" :alt="b.image" class="w-full" />
               <div class="p-4">
                 <h2 class="text-2xl font-semibold">{{ b.title }}</h2>
                 <p class="text-xs md:text-sm lg:text-base">{{ b.description }}</p>
