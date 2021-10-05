@@ -1,13 +1,12 @@
 <template>
-  <div class="w-full bg-gray-50">
-    <TopImg />
+  <div class="w-full">
     <div class="lg:w-10/12 lg:mx-auto md:w-10/12 md:mx-auto py-8">
       <ul class="article-card-container lg:flex lg:flex-wrap lg:justify-between md:flex md:flex-wrap md:justify-between">
-        <li class="article-card w-11/12 sm:mx-auto mb-10 rounded-2xl border-2 overflow-hidden" v-for="b in blogs" :key="b.slug">
-          <div class="bg-white h-full">
+        <li class="article-card w-11/12 sm:mx-auto mb-10 rounded-2xl overflow-hidden" v-for="b in blogs" :key="b.slug">
+          <div class="h-full">
             <nuxt-link :to="b.slug">
-              <img :src="require(`@/assets/img/${b.image}.jpg`)" :alt="b.image" class="w-full" />
-              <div class="p-4">
+              <img :src="require(`@/assets/img/${b.image}.jpg`)" :alt="b.image" class="w-10/12 rounded m-auto mt-4" />
+              <div class="w-10/12 py-4 m-auto">
                 <h2 class="text-2xl font-semibold">{{ b.title }}</h2>
                 <p class="text-xs md:text-sm lg:text-base">{{ b.description }}</p>
                 <Tag>{{ b.category }}</Tag>
@@ -42,6 +41,9 @@ export default Vue.extend({
 <style scoped>
 .article-card {
   width:31%;
+  background-color: #EBECF0;
+  box-shadow:  20px 20px 60px #c8c9cc,
+              -20px -20px 60px #ffffff;
 }
 .article-card-container::after{
   content:"";

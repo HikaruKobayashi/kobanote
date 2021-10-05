@@ -22,6 +22,9 @@ export default {
   html {
     font-family: 'Noto Sans JP', sans-serif;
   }
+  body {
+    background-color: #EBECF0;
+  }
   .nuxt-content h2 {
     font-weight: bold;
     font-size: 24px;
