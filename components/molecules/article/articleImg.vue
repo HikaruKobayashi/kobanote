@@ -1,6 +1,6 @@
 <template>
-  <section id="articleImg">
-    <div class="inner text-center w-3/6 text-white mx-auto my-0 px-0 py-32">
+  <section id="articleImg" class="w-11/12 lg:w-5/12 mx-auto mt-4 p-4">
+    <div class="w-11/12 lg:w-5/12 inner text-center w-3/6 text-white mx-auto my-0 px-0 py-32">
       <h1 class="text-2xl lg:text-4xl font-bold">{{title}}</h1>
     </div>
   </section>
@@ -16,7 +16,6 @@ export default {
 
 <style lang="sass" scoped>
 #articleImg
-  width: 100%
   position: relative
   padding: 200px 0
   background: url(@/assets/img/main-bg-img.jpeg) no-repeat
