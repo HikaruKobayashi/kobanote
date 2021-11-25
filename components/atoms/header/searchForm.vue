@@ -2,7 +2,6 @@
   <div>
     <v-form class="w-44 px-4 mx-auto" @submit.prevent="submit">
       <v-text-field
-        class=""
         ref="searchForm"
         v-model="query"
         placeholder='Search'

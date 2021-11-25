@@ -14,8 +14,8 @@
 </template>
 
 <script>
-import Title from '~/components/atoms/header/title.vue'
-import SearchForm from '~/components/atoms/header/searchForm.vue'
+import Title from "~/components/atoms/header/title.vue"
+import SearchForm from "~/components/atoms/header/searchForm.vue"
 
 export default {
   components: {

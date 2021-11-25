@@ -5,7 +5,7 @@
         <li class="article-card w-11/12 sm:mx-auto mb-10 rounded-2xl overflow-hidden" v-for="b in blogs" :key="b.slug">
           <div class="h-full">
             <nuxt-link :to="b.slug">
-              <img :src="require(`@/assets/img/${b.image}.jpg`)" :alt="b.image" class="w-10/12 h-3/5 rounded m-auto mt-4" />
+              <img :src="require(`@/assets/img/${b.image}.jpg`)" :alt="b.image" class="w-full h-3/5 rounded-tl-2xl rounded-tr-2xl m-auto" />
               <div class="w-10/12 py-4 m-auto">
                 <h2 class="text-2xl font-semibold">{{ b.title }}</h2>
                 <p class="text-xs md:text-sm lg:text-base">{{ b.description }}</p>
@@ -39,9 +39,8 @@ export default Vue.extend({
 <style scoped>
 .article-card {
   width:31%;
-  background-color: #EBECF0;
-  box-shadow:  20px 20px 60px #c8c9cc,
-              -20px -20px 60px #ffffff;
+  background-color: #fff;
+  border-top: 1px;
 }
 .article-card-container::after{
   content:"";
