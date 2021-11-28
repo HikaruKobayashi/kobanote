@@ -19,9 +19,6 @@ export default {
 </script>
 
 <style>
-  html {
-    font-family: 'Noto Sans JP', sans-serif;
-  }
   body {
     background-color: #EBECF0;
   }
@@ -29,6 +26,7 @@ export default {
     font-weight: bold;
     font-size: 24px;
     border-bottom: 1px solid rgb(221, 221, 221);
+    margin-top: 1rem;
     margin-bottom: 1rem;
   }
   .nuxt-content h3 {
@@ -41,7 +39,7 @@ export default {
   }
   .nuxt-content a {
     text-decoration: underline;
-    color: rgb(0, 0, 255);
+    color: rgb(0, 68, 204);
   }
   .nuxt-content li {
     list-style: inside;
