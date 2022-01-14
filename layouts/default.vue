@@ -20,7 +20,7 @@ export default {
 
 <style>
   body {
-    background-color: #EBECF0;
+    background-color: rgb(235, 236, 240);
   }
   .nuxt-content h2 {
     font-weight: bold;

@@ -39,7 +39,7 @@ export default Vue.extend({
 <style scoped>
 .article-card {
   width:31%;
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   border-top: 1px;
 }
 .article-card-container::after{
