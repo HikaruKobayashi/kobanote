@@ -3,7 +3,6 @@ title: GitActionsで自動デプロイでコケた
 date: 2021.5.18
 category: GitHub
 description: '自動デプロイって魅力的ですよね。'
-image: git
 ---
 
 エンジニアたるもの、ちょっと頑張るだけのことも可能な限り自動化したくなってしまいますよね。  

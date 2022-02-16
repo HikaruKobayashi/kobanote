@@ -3,7 +3,6 @@ title: 【React Native】ios simulatorが立ち上がらなかった時の対処
 date: 2022.1.1
 category: React Native
 description: 'ios simulatorが立ち上がらず困った時の備忘録'
-image: react-error
 ---
 ## どんな状況だったか？
 ある時いつも通りyarn iosのコマンドでReact Nativeのアプリを立ち上げようとしたところターミナルに下記のようなエラーが出てしまいました。  

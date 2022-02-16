@@ -9,7 +9,12 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'This site is a technical blog developed by Kobayashi.' }
+      { hid: 'description', name: 'description', content: 'This site is a technical blog developed by Kobayashi.' },
+      { property: "og:type", content: "website" },
+      { property: "og:locale", content: "ja_JP" },
+      { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:site", content: "@0719kobayashi" },
+      { name: "twitter:creator", content: "@0719kobayashi" },
     ],
   },
 

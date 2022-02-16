@@ -3,7 +3,6 @@ title: Nuxt.jsでnpm run devでできない場合の対処法
 date: 2021.8.26
 category: Nuxt.js
 description: 'Nuxt.jsでローカルサーバーを立ち上げられなかった時の解決方法です。'
-image: error
 ---
 
 ある日、いつも通り`npm run dev`でローカルサーバーを立ち上げてNuxt.jsを使用した開発を行おうとした際に下記のエラーに遭遇し、ローカルサーバーを立ち上げることができませんでした。
