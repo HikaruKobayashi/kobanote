@@ -10,6 +10,6 @@ import Title from "~/components/atoms/header/title.vue"
 export default {
   components: {
     Title,
-  },
+  }
 }
 </script>

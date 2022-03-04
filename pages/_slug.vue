@@ -9,17 +9,16 @@
   </div>
 </template>
 
-<script lang="ts">
-import Vue from 'vue'
+<script>
 import Tag from '~/components/atoms/common/tag.vue'
 
-export default Vue.extend({
+export default {
   components: {
     Tag,
   },
   async asyncData ({ $content, params }) {
     const blogs = await $content('blogs', params.slug || 'index').fetch()
     return { blogs }
-  },
-})
+  }
+}
 </script>

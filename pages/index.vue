@@ -14,19 +14,18 @@
   </div>
 </template>
 
-<script lang="ts">
-import Vue from 'vue'
+<script>
 import Tag from '~/components/atoms/common/tag.vue'
 
-export default Vue.extend({
+export default {
   components: {
     Tag,
   },
   async asyncData ({ $content }) {
-    const query = await $content('blogs' || 'index').sortBy('createdAt', 'desc')
-    const blogs = await query.fetch()
-    const tags = await query.only(['category']).fetch()
+    const query = await $content('blogs' || 'index').sortBy('createdAt', 'desc'),
+          blogs = await query.fetch(),
+          tags = await query.only(['category']).fetch()
     return { blogs, tags }
-  },
-})
+  }
+}
 </script>
