@@ -15,17 +15,21 @@
 </template>
 
 <script>
-import Tag from '~/components/atoms/common/tag.vue'
+import Tag from "~/components/atoms/common/tag.vue";
 
 export default {
+  name: "Home",
   components: {
-    Tag,
+    Tag
   },
-  async asyncData ({ $content }) {
-    const query = await $content('blogs' || 'index').sortBy('createdAt', 'desc'),
-          blogs = await query.fetch(),
-          tags = await query.only(['category']).fetch()
-    return { blogs, tags }
+  async asyncData({ $content }) {
+    const query = await $content("blogs" || "index").sortBy(
+        "createdAt",
+        "desc"
+      ),
+      blogs = await query.fetch(),
+      tags = await query.only(["category"]).fetch();
+    return { blogs, tags };
   }
-}
+};
 </script>

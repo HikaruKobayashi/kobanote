@@ -10,15 +10,16 @@
 </template>
 
 <script>
-import Tag from '~/components/atoms/common/tag.vue'
+import Tag from "~/components/atoms/common/tag.vue";
 
 export default {
+  name: "Slug",
   components: {
-    Tag,
+    Tag
   },
-  async asyncData ({ $content, params }) {
-    const blogs = await $content('blogs', params.slug || 'index').fetch()
-    return { blogs }
+  async asyncData({ $content, params }) {
+    const blogs = await $content("blogs", params.slug || "index").fetch();
+    return { blogs };
   }
-}
+};
 </script>
