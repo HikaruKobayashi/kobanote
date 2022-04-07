@@ -8,7 +8,6 @@
 import Title from "~/components/atoms/header/title.vue";
 
 export default {
-  name: "header",
   components: {
     Title
   }
