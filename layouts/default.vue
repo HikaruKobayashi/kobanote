@@ -22,6 +22,9 @@ export default {
 @charset "utf-8";
 body {
   font-family: "ヒラギノ角ゴシック", "Hiragino Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #292929;
 }
 .nuxt-content {
   & h2 {

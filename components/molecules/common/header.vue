@@ -1,5 +1,5 @@
 <template>
-  <header class="w-full h-14 table z-10 border-b-2 fixed bg-white">
+  <header class="w-full h-14 table z-10 fixed bg-white">
     <Title />
   </header>
 </template>
