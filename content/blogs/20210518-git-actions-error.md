@@ -1,5 +1,5 @@
 ---
-title: GitActionsで自動デプロイでコケた
+title: GitActionsで自動デプロイでコケた話
 date: 2021.5.18
 category: GitHub
 description: '自動デプロイって魅力的ですよね。'

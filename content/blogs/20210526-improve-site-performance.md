@@ -1,5 +1,5 @@
 ---
-title: 自作サイトのパフォーマンスを上げる
+title: 自作サイトのパフォーマンスを上げたい
 date: 2021.5.26
 category: SEO
 description: '自作ブログであるこのサイトを「Lighthouse」というGoogleの拡張機能で計測しました。'

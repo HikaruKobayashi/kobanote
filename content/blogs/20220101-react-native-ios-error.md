@@ -1,5 +1,5 @@
 ---
-title: 【React Native】ios simulatorが立ち上がらなかった時の対処法
+title: React Nativeでios simulatorが立ち上がらなかった時の対処法
 date: 2022.1.1
 category: React Native
 description: 'ios simulatorが立ち上がらず困った時の備忘録'
