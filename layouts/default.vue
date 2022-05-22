@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header />
-    <Nuxt class="pt-14" />
+    <Nuxt />
     <Footer />
   </div>
 </template>
@@ -13,8 +13,8 @@ import Footer from "~/components/molecules/common/footer.vue";
 export default {
   components: {
     Header,
-    Footer
-  }
+    Footer,
+  },
 };
 </script>
 
@@ -40,7 +40,7 @@ body {
   }
   & p {
     line-height: 2;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
   & a {
     text-decoration: underline;

@@ -1,5 +1,5 @@
 <template>
-  <header class="w-full h-14 table z-10 fixed bg-white">
+  <header class="w-full h-14 table z-10 bg-white border-b">
     <Title />
   </header>
 </template>
@@ -9,7 +9,7 @@ import Title from "~/components/atoms/header/title.vue";
 
 export default {
   components: {
-    Title
-  }
+    Title,
+  },
 };
 </script>
