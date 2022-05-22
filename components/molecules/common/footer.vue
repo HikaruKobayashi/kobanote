@@ -1,9 +1,6 @@
 <template>
-  <footer class="w-full text-center py-4 footer">
-    <p
-      class="copyright text-white"
-      v-html="copy + space + year + space + name"
-    ></p>
+  <footer class="w-full text-center py-4">
+    <p class="copyright" v-html="copy + space + year + space + name"></p>
   </footer>
 </template>
 
@@ -23,9 +20,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-.footer {
-  background-color: #333;
-}
-</style>
