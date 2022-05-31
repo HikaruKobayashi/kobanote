@@ -30,7 +30,8 @@ body {
   & h2 {
     font-weight: bold;
     font-size: 24px;
-    border-bottom: 1px solid rgb(221, 221, 221);
+    border-left: 3px solid rgb(0, 141, 183);
+    padding-left: 10px;
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
