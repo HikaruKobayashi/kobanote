@@ -17,7 +17,7 @@
           </div>
         </div>
         <ul>
-          <li><a href="https://twitter.com/0719kobayashi" target="_blank" rel="noopener noreferrer"><fa :icon="['fab', 'twitter-square']" class="font-awesome-size" /></a></li>
+          <li><a href="https://twitter.com/0719kobayashi" target="_blank" rel="noopener noreferrer"><fa :icon="['fab', 'twitter-square']" class="font-awesome-size twitter" /></a></li>
           <li><a href="https://github.com/HikaruKobayashi/kobanote" target="_blank" rel="noopener noreferrer"><fa :icon="['fab', 'github-square']" class="font-awesome-size" /></a></li>
         </ul>
       </div>
@@ -72,6 +72,9 @@
         > a {
           > .font-awesome-size {
             font-size: 25px;
+          }
+          > .twitter {
+            color: #1DA1F2;
           }
         }
       }
