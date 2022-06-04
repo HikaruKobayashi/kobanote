@@ -25,6 +25,7 @@ body {
   margin: 0;
   padding: 0;
   color: #292929;
+  background: #F4F7F6;
 }
 .nuxt-content {
   & h2 {

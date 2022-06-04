@@ -2,7 +2,7 @@
   <div class="w-full">
     <div class="w-11/12 lg:w-4/12 mx-auto p-4">
       <div
-        class="border rounded-sm py-6 px-5 mb-4 post-container"
+        class="bg-white rounded-md py-6 px-5 mb-4 post-container"
         v-for="b in blogs"
         :key="b.slug"
       >
@@ -33,6 +33,7 @@ export default {
 <style scoped>
 .post-container {
   position: relative;
+  box-shadow: 0 2px 4px #4385bb12;
 }
 .post-container::after {
   position: absolute;

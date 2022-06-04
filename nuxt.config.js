@@ -86,7 +86,11 @@ module.exports = {
       },
       {
         set: "@fortawesome/free-brands-svg-icons",
-        icons: ["faTwitter"]
+        icons: ["faTwitterSquare"]
+      },
+      {
+        set: "@fortawesome/free-brands-svg-icons",
+        icons: ["faGithubSquare"]
       }
     ]
   },
