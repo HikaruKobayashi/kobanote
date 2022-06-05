@@ -92,7 +92,7 @@
       margin-right: 60px;
     }
 
-    > div {
+    > .sidebar-wrap {
       justify-self: start;
       > .side-bar {
         margin-top: 0;
