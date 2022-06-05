@@ -10,15 +10,31 @@
     <div class="sidebar-wrap">
       <div class="side-bar">
         <div class="profile-wrap">
-          <img src="/img/cafe.jpg" width="80px" height="80px">
+          <img src="/img/cafe.jpg" width="80px" height="80px" />
           <div>
             <p>Kobayashi</p>
             <span>Developer</span>
           </div>
         </div>
         <ul>
-          <li><a href="https://twitter.com/0719kobayashi" target="_blank" rel="noopener noreferrer"><fa :icon="['fab', 'twitter-square']" class="font-awesome-size twitter" /></a></li>
-          <li><a href="https://github.com/HikaruKobayashi/kobanote" target="_blank" rel="noopener noreferrer"><fa :icon="['fab', 'github-square']" class="font-awesome-size" /></a></li>
+          <li>
+            <a
+              href="https://twitter.com/0719kobayashi"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><fa
+                :icon="['fab', 'twitter-square']"
+                class="font-awesome-size twitter"
+            /></a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/HikaruKobayashi/kobanote"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><fa :icon="['fab', 'github-square']" class="font-awesome-size"
+            /></a>
+          </li>
         </ul>
       </div>
     </div>
@@ -30,6 +46,7 @@
 
 .container {
   width: 100%;
+  padding: 12px;
   .main {
     width: 100%;
     padding: 20px;
@@ -60,11 +77,13 @@
         }
       }
     }
-    > ul{
+    > ul {
       display: flex;
       justify-content: center;
       align-items: center;
       > li {
+        width: 25px;
+        height: 25px;
         margin-right: 10px;
         &:last-child {
           margin: 0;
@@ -74,7 +93,7 @@
             font-size: 25px;
           }
           > .twitter {
-            color: #1DA1F2;
+            color: #1da1f2;
           }
         }
       }
@@ -82,9 +101,8 @@
   }
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
   .container {
-    padding: 12px;
     margin: auto;
     display: grid;
     grid-template-columns: 2fr 1fr;
