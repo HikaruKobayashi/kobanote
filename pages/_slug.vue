@@ -84,6 +84,8 @@
 
 @media screen and (min-width:768px) {
   .container {
+    padding: 12px;
+    margin: auto;
     display: grid;
     grid-template-columns: 2fr 1fr;
     > .main {
