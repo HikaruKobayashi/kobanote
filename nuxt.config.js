@@ -52,7 +52,8 @@ module.exports = {
     "@nuxt/typescript-build",
     "@nuxtjs/tailwindcss",
     "@nuxtjs/vuetify",
-    "@aceforth/nuxt-optimized-images"
+    "@aceforth/nuxt-optimized-images",
+    "@nuxtjs/google-analytics"
   ],
 
   optimizedImages: {
@@ -66,11 +67,10 @@ module.exports = {
     "@nuxtjs/robots",
     "@nuxtjs/sitemap",
     "nuxt-fontawesome",
-    "@nuxtjs/google-gtag"
   ],
-  "google-gtag": {
-    id: "G-9RQREZ7B7F",
-    debug: true
+
+  googleAnalytics: {
+    id: "G-9RQREZ7B7F"
   },
 
   fontawesome: {
