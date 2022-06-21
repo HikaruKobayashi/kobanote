@@ -19,14 +19,7 @@ module.exports = {
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@0719kobayashi" },
       { name: "twitter:creator", content: "@0719kobayashi" }
-    ],
-    script: [
-      { async: true },
-      { src: 'https: //www.googletagmanager.com/gtag/js?id=G-9RQREZ7B7F' },
-      {
-        innerHTML: `window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-9RQREZ7B7F');`
-      }
-    ],
+    ]
   },
 
   css: [],
@@ -72,7 +65,11 @@ module.exports = {
     "@nuxtjs/pwa",
     "@nuxtjs/robots",
     "@nuxtjs/sitemap",
-    "nuxt-fontawesome"
+    "nuxt-fontawesome",
+    ['@nuxtjs/google-gtag', {
+      id: 'G-9RQREZ7B7F',
+      debug: false,
+    }]
   ],
 
   fontawesome: {
