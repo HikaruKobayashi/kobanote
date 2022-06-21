@@ -53,7 +53,6 @@ module.exports = {
     "@nuxtjs/tailwindcss",
     "@nuxtjs/vuetify",
     "@aceforth/nuxt-optimized-images",
-    "@nuxtjs/google-analytics"
   ],
 
   optimizedImages: {
@@ -67,6 +66,7 @@ module.exports = {
     "@nuxtjs/robots",
     "@nuxtjs/sitemap",
     "nuxt-fontawesome",
+    '@nuxtjs/google-analytics'
   ],
 
   googleAnalytics: {
